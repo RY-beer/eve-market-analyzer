@@ -1,0 +1,17 @@
+[project]
+name = "eve-market-analyzer"
+version = "0.1.0"
+description = "Desktop tool for finding profitable EVE Online regional hauling arbitrage."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "nicegui>=3.12.1",
+    "pydantic>=2.13.4",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.1.0",
+    "pytest>=9.0.3",
+]
